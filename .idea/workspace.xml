@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a731fd3f-f3be-43d9-93d7-7ab7e58d4991" name="Changes" comment="" />
+    <list default="true" id="a731fd3f-f3be-43d9-93d7-7ab7e58d4991" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "merna-29"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/merna-29/Group4-Swag-Labs",
+    "accountId": "632b61cf-e093-4d7d-a2b8-630ff8542b2d"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -45,6 +63,7 @@
     "TestNG.InventoryTest.testVerifyAddedItemsInCart.executor": "Run",
     "TestNG.SidebarMenuTest.executor": "Run",
     "TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed.executor": "Run",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,12 +169,20 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SidebarMenuTest" />
-        <item itemvalue="TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed" />
         <item itemvalue="TestNG.InventoryTest" />
+        <item itemvalue="TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed" />
         <item itemvalue="TestNG.InventoryTest.testRemoveItemFromCart" />
         <item itemvalue="TestNG.CartTest.testRemoveItemFromCart" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,6 +205,7 @@
       <workItem from="1746227108457" duration="3498000" />
       <workItem from="1746809947885" duration="1215000" />
       <workItem from="1746811549816" duration="14000" />
+      <workItem from="1746828423431" duration="1951000" />
     </task>
     <servers />
   </component>
