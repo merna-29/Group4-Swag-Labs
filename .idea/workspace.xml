@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a731fd3f-f3be-43d9-93d7-7ab7e58d4991" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jira (1).doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jira(1).doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jira.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SidebarMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SidebarMenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,39 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.CartTest.executor": "Run",
-    "TestNG.CartTest.testRemoveItemFromCart.executor": "Run",
-    "TestNG.InventoryTest.executor": "Run",
-    "TestNG.InventoryTest.testAddProductToCart.executor": "Run",
-    "TestNG.InventoryTest.testPriceSorting.executor": "Run",
-    "TestNG.InventoryTest.testProductCount.executor": "Run",
-    "TestNG.InventoryTest.testProductImageNavigation.executor": "Run",
-    "TestNG.InventoryTest.testProductSorting.executor": "Run",
-    "TestNG.InventoryTest.testRemoveItemFromCart.executor": "Debug",
-    "TestNG.InventoryTest.testRemoveProductFromCart.executor": "Run",
-    "TestNG.InventoryTest.testVerifyAddedItemsInCart.executor": "Run",
-    "TestNG.SidebarMenuTest.executor": "Run",
-    "TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed.executor": "Run",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/SauceDemoAutomation/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.CartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CartTest.testRemoveItemFromCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testAddProductToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testPriceSorting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testProductCount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testProductImageNavigation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testProductSorting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testRemoveItemFromCart.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.InventoryTest.testRemoveProductFromCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InventoryTest.testVerifyAddedItemsInCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SidebarMenuTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/SauceDemoAutomation/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.InventoryTest">
+}</component>
+  <component name="RunManager" selected="TestNG.SidebarMenuTest">
     <configuration name="CartTest.testRemoveItemFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemoAutomation" />
       <extension name="coverage">
@@ -172,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InventoryTest" />
         <item itemvalue="TestNG.SidebarMenuTest" />
+        <item itemvalue="TestNG.InventoryTest" />
         <item itemvalue="TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed" />
         <item itemvalue="TestNG.InventoryTest.testRemoveItemFromCart" />
         <item itemvalue="TestNG.CartTest.testRemoveItemFromCart" />
@@ -210,7 +207,7 @@
       <workItem from="1746809947885" duration="1215000" />
       <workItem from="1746811549816" duration="14000" />
       <workItem from="1746828423431" duration="1951000" />
-      <workItem from="1746837256321" duration="1264000" />
+      <workItem from="1746837256321" duration="2194000" />
     </task>
     <servers />
   </component>

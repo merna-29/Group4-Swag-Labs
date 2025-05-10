@@ -28,7 +28,7 @@ public class SidebarMenuTest {
 
 
     @Test(priority = 1)
-    public void testLogin() throws InterruptedException {
+    public void testLogin()  {
         // Navigate to Swag Labs
         driver.get("https://www.saucedemo.com/v1/index.html");
 
@@ -43,12 +43,12 @@ public class SidebarMenuTest {
 
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("inventory_list")));
-        Thread.sleep(1000);
+
 
     }
 
     @Test(priority = 2)
-    public void testSidebarMenuCanBeOpened() throws InterruptedException {
+    public void testSidebarMenuCanBeOpened()  {
 
         WebElement menuBtn = driver.findElement(By.className("bm-burger-button"));
         menuBtn.click();
@@ -57,11 +57,11 @@ public class SidebarMenuTest {
         WebElement menuWrap = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.className("bm-menu-wrap")));
         Assert.assertTrue(menuWrap.isDisplayed(), "Sidebar menu should be visible after clicking menu button");
-        Thread.sleep(1000);
+
     }
 
     @Test(priority = 3)
-    public void testSidebarMenuContainsCorrectItems() throws InterruptedException {
+    public void testSidebarMenuContainsCorrectItems()  {
 
         WebElement menuBtn = driver.findElement(By.className("bm-menu-wrap"));
         menuBtn.click();
@@ -79,14 +79,14 @@ public class SidebarMenuTest {
             Assert.assertEquals(menuItems.get(i).getText(), expectedItems[i],
                     "Menu item text doesn't match expected");
         }
-        Thread.sleep(1000);
+
 
     }
 
 
 
     @Test(priority = 4)
-    public void testSidebarMenuCanBeClosed() throws InterruptedException {
+    public void testSidebarMenuCanBeClosed() {
 
         WebElement menuBtn = By.className("bm-menu-wrap").findElement(driver);
         menuBtn.click();
@@ -95,7 +95,7 @@ public class SidebarMenuTest {
 
         WebElement closeBtn = driver.findElement(By.className("bm-cross-button"));
         closeBtn.click();
-        Thread.sleep(1000);
+
 
     }
 
