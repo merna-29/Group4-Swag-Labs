@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a731fd3f-f3be-43d9-93d7-7ab7e58d4991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jira (1).doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jira (1).doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jira(1).doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jira.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SidebarMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SidebarMenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.CartTest.executor": "Run",
     "TestNG.CartTest.testRemoveItemFromCart.executor": "Run",
     "TestNG.InventoryTest.executor": "Run",
@@ -63,7 +67,7 @@
     "TestNG.InventoryTest.testVerifyAddedItemsInCart.executor": "Run",
     "TestNG.SidebarMenuTest.executor": "Run",
     "TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed.executor": "Run",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +81,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SidebarMenuTest">
+  <component name="RunManager" selected="TestNG.InventoryTest">
     <configuration name="CartTest.testRemoveItemFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemoAutomation" />
       <extension name="coverage">
@@ -168,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SidebarMenuTest" />
         <item itemvalue="TestNG.InventoryTest" />
+        <item itemvalue="TestNG.SidebarMenuTest" />
         <item itemvalue="TestNG.SidebarMenuTest.testSidebarMenuCanBeClosed" />
         <item itemvalue="TestNG.InventoryTest.testRemoveItemFromCart" />
         <item itemvalue="TestNG.CartTest.testRemoveItemFromCart" />
@@ -206,6 +210,7 @@
       <workItem from="1746809947885" duration="1215000" />
       <workItem from="1746811549816" duration="14000" />
       <workItem from="1746828423431" duration="1951000" />
+      <workItem from="1746837256321" duration="1264000" />
     </task>
     <servers />
   </component>

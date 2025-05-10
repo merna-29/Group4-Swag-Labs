@@ -20,7 +20,6 @@ public class SidebarMenuTest {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\AESHA\\Downloads\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -29,7 +28,7 @@ public class SidebarMenuTest {
 
 
     @Test(priority = 1)
-    public void testLogin() {
+    public void testLogin() throws InterruptedException {
         // Navigate to Swag Labs
         driver.get("https://www.saucedemo.com/v1/index.html");
 
@@ -44,10 +43,12 @@ public class SidebarMenuTest {
 
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("inventory_list")));
+        Thread.sleep(1000);
+
     }
 
     @Test(priority = 2)
-    public void testSidebarMenuCanBeOpened() {
+    public void testSidebarMenuCanBeOpened() throws InterruptedException {
 
         WebElement menuBtn = driver.findElement(By.className("bm-burger-button"));
         menuBtn.click();
@@ -56,10 +57,11 @@ public class SidebarMenuTest {
         WebElement menuWrap = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.className("bm-menu-wrap")));
         Assert.assertTrue(menuWrap.isDisplayed(), "Sidebar menu should be visible after clicking menu button");
+        Thread.sleep(1000);
     }
 
     @Test(priority = 3)
-    public void testSidebarMenuContainsCorrectItems() {
+    public void testSidebarMenuContainsCorrectItems() throws InterruptedException {
 
         WebElement menuBtn = driver.findElement(By.className("bm-menu-wrap"));
         menuBtn.click();
@@ -77,13 +79,14 @@ public class SidebarMenuTest {
             Assert.assertEquals(menuItems.get(i).getText(), expectedItems[i],
                     "Menu item text doesn't match expected");
         }
+        Thread.sleep(1000);
 
     }
 
 
 
     @Test(priority = 4)
-    public void testSidebarMenuCanBeClosed() {
+    public void testSidebarMenuCanBeClosed() throws InterruptedException {
 
         WebElement menuBtn = By.className("bm-menu-wrap").findElement(driver);
         menuBtn.click();
@@ -92,10 +95,8 @@ public class SidebarMenuTest {
 
         WebElement closeBtn = driver.findElement(By.className("bm-cross-button"));
         closeBtn.click();
+        Thread.sleep(1000);
 
-      //  wait.until(ExpectedConditions.invisibilityOf(menuWrap));
-
-      //  Assert.assertFalse(menuWrap.isDisplayed(), "يجب أن تختفي القائمة الجانبية بعد النقر على زر الإغلاق");
     }
 
 
