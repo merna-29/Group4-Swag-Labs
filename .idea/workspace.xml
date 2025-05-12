@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a731fd3f-f3be-43d9-93d7-7ab7e58d4991" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/test/java/Tests/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/test/java/Tests/SidebarMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/test/java/pages/Inventorypage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/test/java/pages/Loginpage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/src/test/java/pages/SidebarMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/testing.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +224,7 @@
       <workItem from="1746840705243" duration="26000" />
       <workItem from="1746840793118" duration="164000" />
       <workItem from="1746998728940" duration="1488000" />
+      <workItem from="1747038855370" duration="384000" />
     </task>
     <servers />
   </component>
